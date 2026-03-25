@@ -16,11 +16,7 @@ A simple Unix-like **MiniShell implemented in C** that replicates core functiona
 - ✅ **Signal handling**
   - `Ctrl + C` → terminate process
   - `Ctrl + Z` → stop process (job control)
-- ✅ **Foreground & Background process management**
-- ✅ Environment variable handling in `echo`
-  - `echo $$` → process ID
-  - `echo $?` → last command status
-  - `echo $SHELL` → shell path
+
 
 ---
 
@@ -37,4 +33,3 @@ This project is built using core **Linux system calls**:
 
 ---
 
-## 📂 Project Structure
